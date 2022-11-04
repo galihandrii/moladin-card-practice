@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600&family=Nunito+Sans&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+h1, h2, h3, p, li, a{
+    margin: 0;
+}
+
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    width: 1370px;;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.parent-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+    
+}
+.container-top{
+    padding-bottom: 40px; 
+    width: 1132px;
+}
+
+.container-bottom{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    
+}
+
+.container-1{
+    border: 2px black;
+    border-radius:10px ;
+    width:344px; 
+    box-shadow: 3px 3px 7px grey;
+}
+
+.container-1:hover{
+box-shadow: 7px 7px 10px black;
+transition: 0.4s;
+}
+
+.container-2{
+    padding: 16px;;
+}
+
+.container-2 h3{
+    padding-bottom: 8px;;
+}
+
+.container-2 p:nth-child(3){
+    padding-top: 50px;
+    font-size: 14px;
+}
+footer p{
+    text-align: center;
+    font-size: 12;
+}
+
+
